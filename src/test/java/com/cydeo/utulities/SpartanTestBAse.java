@@ -15,13 +15,14 @@ public abstract class SpartanTestBAse {
        String dbUrl="jdbc:oracle:thin:@3.238.220.2:1521:XE";
         String dbUserName="SP";
         String dbPassword="SP";
-        DBUtils.createConnection(dbUrl,dbUserName,dbPassword);
+       // DBUtils.createConnection(dbUrl,dbUserName,dbPassword);
 
 
     }
 
     @AfterAll
-    public void tearDown(){
-        DBUtils.destroy();
+    public static void tearDown(){
+
+        //DBUtils.destroy();
     }
 }

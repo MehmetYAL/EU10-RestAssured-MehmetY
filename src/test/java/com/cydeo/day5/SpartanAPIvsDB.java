@@ -4,6 +4,8 @@ import com.cydeo.utulities.DBUtils;
 import com.cydeo.utulities.SpartanTestBAse;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import static org.hamcrest.Matchers.*;
+import static io.restassured.RestAssured.*;
 
 import java.util.Map;
 
