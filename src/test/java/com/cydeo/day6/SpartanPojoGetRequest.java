@@ -2,7 +2,7 @@ package com.cydeo.day6;
 
 import com.cydeo.pojo.Search;
 import com.cydeo.pojo.Spartan;
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.SpartanTestBAse;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -11,8 +11,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.hamcrest.MatcherAssert.*;
-import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 
 public class SpartanPojoGetRequest extends SpartanTestBAse {

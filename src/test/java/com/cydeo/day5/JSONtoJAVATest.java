@@ -1,20 +1,14 @@
 package com.cydeo.day5;
 
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.SpartanTestBAse;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import com.cydeo.utulities.SpartanTestBAse;
-import io.restassured.http.ContentType;
-
-
 
 
 import java.util.List;
 import java.util.Map;
 
-import static org.hamcrest.MatcherAssert.*;
-import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 
 public class JSONtoJAVATest extends SpartanTestBAse {

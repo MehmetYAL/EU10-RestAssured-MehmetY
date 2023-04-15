@@ -1,14 +1,9 @@
 package com.cydeo.day8;
-import com.cydeo.utulities.SpartanAuthTestBase;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.Map;
-
-import static org.hamcrest.MatcherAssert.*;
-import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 public class BookItTest {
     @BeforeAll

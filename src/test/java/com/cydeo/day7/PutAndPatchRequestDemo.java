@@ -1,29 +1,15 @@
 package com.cydeo.day7;
 
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.SpartanTestBAse;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import com.cydeo.pojo.Search;
-import com.cydeo.pojo.Spartan;
-import com.cydeo.utulities.SpartanTestBAse;
+
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
-import static org.hamcrest.MatcherAssert.*;
-import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
-import com.cydeo.utulities.SpartanTestBAse;
-import org.junit.jupiter.api.Test;
 
 public class PutAndPatchRequestDemo extends SpartanTestBAse {
 

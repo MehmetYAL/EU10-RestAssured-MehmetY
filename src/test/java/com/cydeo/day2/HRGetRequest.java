@@ -1,13 +1,10 @@
 package com.cydeo.day2;
 
-import com.cydeo.utulities.HRTestBase;
+import com.cydeo.utilities.HRTestBase;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static io.restassured.RestAssured.baseURI;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

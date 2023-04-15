@@ -1,15 +1,12 @@
 package com.cydeo.day5;
 
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.SpartanTestBAse;
 import io.restassured.http.ContentType;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 

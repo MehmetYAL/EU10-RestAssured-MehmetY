@@ -1,11 +1,4 @@
-package com.cydeo.utulities;
-
-import com.github.javafaker.Faker;
-import com.github.javafaker.PhoneNumber;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+package com.cydeo.utilities;
 
 public class SpartanUtil {
   /*  public static Map<String,Object> spartan(String keyword,Object value){

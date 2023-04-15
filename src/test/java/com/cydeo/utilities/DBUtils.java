@@ -1,4 +1,4 @@
-package com.cydeo.utulities;
+package com.cydeo.utilities;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;

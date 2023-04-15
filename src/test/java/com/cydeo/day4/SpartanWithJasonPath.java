@@ -1,6 +1,6 @@
 package com.cydeo.day4;
 
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.SpartanTestBAse;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

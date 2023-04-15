@@ -1,4 +1,4 @@
-package com.cydeo.utulities;
+package com.cydeo.utilities;
 
 import org.junit.jupiter.api.BeforeAll;
 

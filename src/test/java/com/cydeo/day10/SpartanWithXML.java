@@ -1,19 +1,15 @@
 package com.cydeo.day10;
 
-import com.cydeo.utulities.SpartanAuthTestBase;
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.SpartanAuthTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static org.hamcrest.MatcherAssert.*;
+
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
-import com.cydeo.utulities.SpartanTestBAse;
-import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SpartanWithXML extends SpartanAuthTestBase {

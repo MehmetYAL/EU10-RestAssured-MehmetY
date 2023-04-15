@@ -1,8 +1,7 @@
 package com.cydeo.day5;
 
-import com.cydeo.utulities.HRTestBase;
+import com.cydeo.utilities.HRTestBase;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import io.restassured.http.ContentType;

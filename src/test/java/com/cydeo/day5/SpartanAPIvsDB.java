@@ -1,11 +1,9 @@
 package com.cydeo.day5;
 
-import com.cydeo.utulities.DBUtils;
-import com.cydeo.utulities.SpartanTestBAse;
+import com.cydeo.utilities.DBUtils;
+import com.cydeo.utilities.SpartanTestBAse;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static org.hamcrest.Matchers.*;
-import static io.restassured.RestAssured.*;
 
 import java.util.Map;
 
