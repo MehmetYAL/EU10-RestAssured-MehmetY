@@ -14,6 +14,6 @@ public class SSLTest {
     public void keyStore(){
 
         given().keyStore("pathofile","password")
-                .when().get("apiyrl");
+                .when().get("apiurl");
     }
 }
